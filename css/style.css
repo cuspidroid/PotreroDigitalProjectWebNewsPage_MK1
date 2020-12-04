@@ -131,7 +131,7 @@ span{
   grid-area: image-2;
   min-height: 400px;
   min-width: 400px;
-  background-color: gray;
+  background-color: white;
   padding: 3rem;
   display: flex;
   flex-direction: column;
