@@ -66,11 +66,34 @@ footer{
 	margin-top: 20px;
 }
 
-/*responsive */
+/*Responsive ven a mí */
 
 @media(max-width:800px){
 	.left-column,.right-column1,.right-column2{
     width: 100%;
     padding: 0px;
 	}
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
