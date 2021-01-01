@@ -35,10 +35,14 @@
   color: #ececec;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Roboto Condensed', sans-serif; 
+  font-family: 'Roboto Condensed', sans-serif;
   transition: .4s linear;
 }
 
 .content a:hover{
   background: #0f1923;
 }
+@media(max-width:800px){
+	img{
+    width: 100%;
+    padding: 0px;
